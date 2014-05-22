@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 if [ -f /.glassfish_admin_password_changed ]; then
     echo "Glassfish 'admin' password already changed!"
     exit 0
