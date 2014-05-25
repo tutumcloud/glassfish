@@ -13,7 +13,9 @@ To create the image `tutum/glassfish`, execute the following command on the tutu
 
 To run the image and bind to port :
 
-	docker run -d -p 4848:4848 -p 8080:8080 tutum/glassfish
+	docker run -d -p 4848:4848 -p 8080:8080 -p 8181:8181 tutum/glassfish
+
+PS: 4848 (for administration), 8080 (for the HTTP listener), and 8181 (for the HTTPS listener)
 
 The first time that you run your container, a new user `admin` with all privileges 
 will be created in Glassfish with a random password. To get the password, check the logs
