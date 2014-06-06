@@ -9,7 +9,7 @@ fi
 
 #generate pasword
 PASS=${GLASSFISH_PASS:-$(pwgen -s 12 1)}
-_word=$( [${GLASSFISH_PASS} ] && echo "preset" || echo "random" )
+_word=$( [ ${GLASSFISH_PASS} ] && echo "preset" || echo "random" )
 
 echo "=> Modifying password of admin to ${_word} in Glassfish"
 /change_admin_password_func.sh $PASS
