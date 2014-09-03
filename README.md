@@ -37,7 +37,7 @@ In this case, `b1uKcRK3r6SF` is the password allocated to the `admin` user.
 
 You can now login to you admin console to configure your Glassfish server:
 
-	htpp://127.0.0.1:4848/
+	http://127.0.0.1:4848/
 
 
 Setting a specific password for the admin account

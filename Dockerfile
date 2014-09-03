@@ -1,4 +1,4 @@
-FROM tifayuki/java:java7
+FROM tifayuki/java:7
 MAINTAINER Feng Honglin <hfeng@tutum.co>
 
 # install glassfish 4.0
