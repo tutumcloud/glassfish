@@ -1,0 +1,7 @@
+glassfish:
+  image: tutum/glassfish
+  ports:
+    - 80:80
+    - 4848:4848
+  environment:
+    - GLASSFISH_PASS="**ChangeMe**"

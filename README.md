@@ -1,6 +1,8 @@
 tutum-docker-glassfish
 =====================
 
+[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/)
+
 Base docker image to run a Glassfish 4.0 application server
 
 
@@ -17,7 +19,7 @@ To run the image and bind to port :
 
 PS: 4848 (for administration), 8080 (for the HTTP listener), and 8181 (for the HTTPS listener)
 
-The first time that you run your container, a new user `admin` with all privileges 
+The first time that you run your container, a new user `admin` with all privileges
 will be created in Glassfish with a random password. To get the password, check the logs
 of the container by running:
 
